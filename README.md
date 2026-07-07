@@ -12,17 +12,17 @@
 
 Working title: _**Multidimensional heat vulnerability mapping to support climate shelter siting: methods and development of a regional decision-support tool**_
 
-<br>
+_Agostini, Perna, D’Agostini, Alessandrini, Antolini, Broccoli, Caranci, Giannini, Fortuna, Martino, Pirola, Ranzi, Angelini*_
+<br><br>
 
 This is the output for the Oasi Climatiche project's demo webGIS application
 
 [Link to the demo page](https://oasiclimaticher.github.io/Oasi-Climatiche-ER)
 
-<br>
+<br><br>
 
-For feedback, requests and observations please contact us at [our mail addresses](mailto:Paola.Angelini@regione.emilia-romagna.it?cc=simone.agostini6@studio.unibo.it&subject=[Oasi%20Climatiche]%20Request).
-
-<br><br><br>
+For feedback, additional details or observations please contact us at [our mail addresses](mailto:Paola.Angelini@regione.emilia-romagna.it?cc=simone.agostini6@studio.unibo.it&subject=[Oasi%20Climatiche]%20Request).
+<br><br>
 
 
 ![Logo](resources/loghi_partner.png)
