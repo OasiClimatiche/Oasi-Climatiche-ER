@@ -1,11 +1,11 @@
 
 ---
 <p align="center">
-  <a href="https://oasiclimaticher.github.io/Oasi-Climatiche-ER/">
+  <a href="[https://oasiclimatiche.github.io/Oasi-Climatiche-ER">
     <img src="resources/stemma.png" alt="Logo" width="75%"></a>
 </p>
 <h1 align="center">
-<a href="https://oasiclimaticher.github.io/Oasi-Climatiche-ER/">Multidimensional heat vulnerability mapping to support climate shelter siting: methods and development of a regional decision-support tool</a>
+<a href="https://oasiclimatiche.github.io/Oasi-Climatiche-ER/">Multidimensional heat vulnerability mapping to support climate shelter siting: methods and development of a regional decision-support tool</a>
 </h1>
 
 <br>
@@ -17,7 +17,7 @@ _Agostini, Perna, D’Agostini, Alessandrini, Antolini, Broccoli, Caranci, Giann
 
 This is the output for the Oasi Climatiche project's demo webGIS application
 
-[Link to the demo page](https://oasiclimaticher.github.io/Oasi-Climatiche-ER)
+[Link to the demo page](https://oasiclimatiche.github.io/Oasi-Climatiche-ER)
 
 <br><br>
 
