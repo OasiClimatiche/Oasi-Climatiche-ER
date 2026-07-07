@@ -1,17 +1,19 @@
 
 ---
 <p align="center">
-  <img src="resources/stemma.png" alt="Logo" width="75%">
+  <a href="https://oasiclimaticher.github.io/Oasi-Climatiche-ER/">
+    <img src="resources/stemma.png" alt="Logo" width="75%"></a>
 </p>
 <h1 align="center">
-  <a href="https://simoneedle.github.io/Oasi-Climatiche-4.0/">🔗 Demo Oasi Climatiche</a>
+Working title:
+  <br><a href="https://oasiclimaticher.github.io/Oasi-Climatiche-ER/">Multidimensional heat vulnerability mapping to support climate shelter siting: methods and development of a regional decision-support tool</a>
 </h1>
 
 <br>
-Hello! This is a prototype site for a climate shelter project i've been working on with my group. 
-We're trying to understand how to share the output WebGIS application.
+This is the output for the Oasi Climatiche project's demo webGIS application
 
-[Here's the link to the demo page!](https://simoneedle.github.io/Oasi-Climatiche-4.0/)
+
+[Link to the demo page!](https://oasiclimaticher.github.io/Oasi-Climatiche-ER/)
 
 For feedback, requests and observations please contact us at [our mail addresses](mailto:Paola.Angelini@regione.emilia-romagna.it?cc=simone.agostini6@studio.unibo.it&subject=[Oasi%20Climatiche]%20Request).
 
