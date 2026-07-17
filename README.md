@@ -11,8 +11,6 @@
 
 Working title: _**Multidimensional heat vulnerability mapping to support climate shelter siting: methods and development of a regional decision-support tool**_
 
-_Agostini, Perna, D’Agostini, Alessandrini, Antolini, Broccoli, Caranci, Giannini, Fortuna, Martino, Pirola, Ranzi, Angelini*_
-
 <br><br>
 
 This is the output for the Oasi Climatiche project's demo webGIS application:
