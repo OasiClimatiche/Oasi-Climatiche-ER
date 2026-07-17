@@ -19,7 +19,7 @@ var lyr_Indicedivulnerabilitclimatica = new ol.layer.VectorImage({
     title: '<div class="roller-switcher"></div> Indicedivulnerabilitclimatica',
     source: new ol.source.Vector(), 
     sourceType: 'json',
-     opacity: 0.7,
+     opacity: 1,
     permalink: "Indicedivulnerabilitclimatica",
     popuplayertitle: 'Indice di vulnerabilità climatica',
     creationdate: '2026-07-03 16:28:51',
@@ -76,7 +76,7 @@ var lyr_TemperaturaSuperficiale = new ol.layer.Image({
         projection: 'EPSG:32632',
         alwaysInRange: true,
         imageExtent: [515025.000000, 4847025.000000, 801975.000000, 4998975.000000]       }),
-        opacity: 0.7,
+        opacity: 1,
         permalink: "TemperaturaSuperficiale",
 
     title: '<div id="layertitle">Temperatura superficiale<br />\
@@ -98,7 +98,7 @@ var lyr_TemperaturaSuperficiale = new ol.layer.Image({
 var lyr_Personesole = new ol.layer.VectorImage({
     title: '<div class="roller-switcher"></div> Personesole',
     source: new ol.source.Vector(), 
-    opacity: 0.1667,
+    opacity: 0.5,
     sourceType: 'json',
     permalink: "Personesole",
     popuplayertitle: 'Persone sole',
@@ -152,7 +152,7 @@ applySLDstyle(lyr_Personesole, style_Personesole, 'Persone sole');
 var lyr_Personestraniere = new ol.layer.VectorImage({
     title: '<div class="roller-switcher"></div> Personestraniere',
     source: new ol.source.Vector(), 
-        opacity: 0.1667,
+        opacity: 0.5,
     sourceType: 'json',
     permalink: "Personestraniere",
     popuplayertitle: 'Persone straniere',
@@ -207,7 +207,7 @@ var lyr_Personeanziane = new ol.layer.VectorImage({
     title: '<div class="roller-switcher"></div> Personeanziane',
     source: new ol.source.Vector(), 
     sourceType: 'json',
-        opacity: 0.1667,
+        opacity: 0.5,
     permalink: "Personeanziane",
     popuplayertitle: 'Persone anziane',
     creationdate: '2026-07-03 16:28:51',
@@ -261,7 +261,7 @@ var lyr_Bambini = new ol.layer.VectorImage({
     title: '<div class="roller-switcher"></div> Bambini',
     source: new ol.source.Vector(), 
     sourceType: 'json',
-        opacity: 0.1667,
+        opacity: 0.5,
     permalink: "Bambini",
     popuplayertitle: 'Bambini',
     creationdate: '2026-07-03 16:28:51',
@@ -315,7 +315,7 @@ var lyr_Indicedideprivazionematerialeesociale2021 = new ol.layer.VectorImage({
     title: '<div class="roller-switcher"></div> Indicedideprivazionematerialeesociale2021',
     source: new ol.source.Vector(), 
     sourceType: 'json',
-    opacity: 0.3334,
+    opacity: 1,
     permalink: "Indicedideprivazionematerialeesociale2021",
     popuplayertitle: 'Indice di deprivazione materiale e sociale 2021',
     creationdate: '2026-07-03 16:28:51',
@@ -389,7 +389,7 @@ var lyr_Multicronicit = new ol.layer.Image({
         projection: 'EPSG:32632',
         alwaysInRange: true,
         imageExtent: [508477.415910, 4842152.830136, 808077.415910, 5005952.830136]     }),
-    opacity: 0.7,
+    opacity: 1,
     permalink: "Multicronicit",
     
      
@@ -406,7 +406,7 @@ var lyr_Disturbimentalieneurocognitivi = new ol.layer.Image({
         projection: 'EPSG:32632',
         alwaysInRange: true,
         imageExtent: [508477.415910, 4842152.830136, 808077.415910, 5005952.830136]        }),
-    opacity: 0.7,
+    opacity: 1,
     permalink: "Disturbimentalieneurocognitivi",
     
      
@@ -423,7 +423,7 @@ var lyr_Indicedivulnerabilitsanitaria = new ol.layer.Image({
         projection: 'EPSG:32632',
         alwaysInRange: true,
         imageExtent: [508477.415910, 4842152.830136, 808077.415910, 5005952.830136]    }),
-    opacity: 0.7,
+    opacity: 1,
     permalink: "Indicedivulnerabilitsanitaria",
     
      
@@ -439,6 +439,7 @@ var lyr_Baciniacquatici = new ol.layer.VectorImage({
     title: '<div class="roller-switcher"></div> Baciniacquatici',
     source: new ol.source.Vector(), 
     sourceType: 'json',
+	Opacity: 0.5,
     permalink: "Baciniacquatici",
     popuplayertitle: 'Bacini acquatici',
     creationdate: '2026-07-03 16:28:51',
@@ -549,6 +550,7 @@ var lyr_Parchi = new ol.layer.VectorImage({
     title: '<div class="roller-switcher"></div> Parchi',
     source: new ol.source.Vector(), 
     sourceType: 'json',
+	opacity: 0.5,
     permalink: "Parchi",
     popuplayertitle: 'Parchi',
     creationdate: '2026-07-03 16:28:51',
@@ -580,6 +582,7 @@ var lyr_Alberi = new ol.layer.VectorImage({
     title: '<div class="roller-switcher"></div> Alberi',
     source: new ol.source.Vector(), 
     sourceType: 'json',
+	opacity: 0.5,
     permalink: "Alberi",
     popuplayertitle: 'Alberi',
     creationdate: '2026-07-03 16:28:51',
@@ -1100,6 +1103,7 @@ var group_Edificipubblici = new ol.layer.Group({
 var group_Vulnerabilitsanitaria = new ol.layer.Group({
                                 layers: [lyr_Multicronicit,lyr_Disturbimentalieneurocognitivi,lyr_Indicedivulnerabilitsanitaria,],
                                 openInLayerSwitcher: false,
+							    opacity: 0.6667,
                                 title: 'Vulnerabilità sanitaria'});
 
 
@@ -1124,10 +1128,12 @@ group_Vulnerabilitsanitaria.getLayers().forEach(function(layer) {
 var group_VulnerabilitSocioDemografica = new ol.layer.Group({
                                 layers: [lyr_Personesole,lyr_Personestraniere,lyr_Personeanziane,lyr_Bambini,lyr_Indicedideprivazionematerialeesociale2021,],
                                 openInLayerSwitcher: false,
+							    opacity: 0.6667,
                                 title: 'Vulnerabilità socio-demografica'});
 var group_Vulnerabilitambientale = new ol.layer.Group({
                                 layers: [lyr_Indicedivulnerabilitclimatica,lyr_TemperaturaSuperficiale,],
                                 openInLayerSwitcher: true,
+							    opacity: 0.6667,
                                 title: 'Vulnerabilità ambientale'});
 
 lyr_CartoLight.setVisible(true);lyr_Indicedivulnerabilitclimatica.setVisible(false);lyr_TemperaturaSuperficiale.setVisible(true);lyr_Personesole.setVisible(false);lyr_Personestraniere.setVisible(false);lyr_Personeanziane.setVisible(false);lyr_Bambini.setVisible(false);lyr_Indicedideprivazionematerialeesociale2021.setVisible(false);lyr_FiltrodiPopolazione2025.setVisible(false);lyr_Multicronicit.setVisible(false);lyr_Disturbimentalieneurocognitivi.setVisible(false);lyr_Indicedivulnerabilitsanitaria.setVisible(false);lyr_Baciniacquatici.setVisible(false);lyr_Infrastrutturebluantropiche.setVisible(false);lyr_Parchi.setVisible(false);lyr_Alberi.setVisible(false);lyr_EdificieStruttureOSM.setVisible(false);lyr_Presidisocioassistenzialianziani.setVisible(false);lyr_CasedellaComunitcensite.setVisible(false);lyr_OspedaliCensiti.setVisible(false);lyr_SistemaEmergenzaUrgenza.setVisible(false);lyr_Comuni2026.setVisible(true);lyr_SezionidiCensimento2021.setVisible(true);lyr_Toponimi.setVisible(true);
