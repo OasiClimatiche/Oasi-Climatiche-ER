@@ -423,7 +423,7 @@ var lyr_Indicedivulnerabilitsanitaria = new ol.layer.Image({
         projection: 'EPSG:32632',
         alwaysInRange: true,
         imageExtent: [508477.415910, 4842152.830136, 808077.415910, 5005952.830136]    }),
-    opacity: 1,
+    opacity: 0.7,
     permalink: "Indicedivulnerabilitsanitaria",
     
      
