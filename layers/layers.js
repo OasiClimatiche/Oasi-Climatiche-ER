@@ -906,10 +906,10 @@ var lyr_Toponimi = new ol.layer.Tile({
 // Funzione per caricare e aggiornare i layer uno alla volta
     // Array per i layer visibili/non visibili all'avvio (solo layer vettori e raster)
     var layersVisibleOnStart = [
-        {layer: lyr_Comuni2026, source: 'Comuni2026'},{layer: lyr_SezionidiCensimento2021, source: 'SezionidiCensimento2021'}
+        {layer: lyr_Comuni2026, source: 'Comuni2026'},{layer: lyr_SezionidiCensimento2021, source: 'SezionidiCensimento2021'},{layer: lyr_Indicedivulnerabilitclimatica, source: 'Indicedivulnerabilitclimatica'}
     ];
     var layersHiddenOnStart = [
-        {layer: lyr_Indicedivulnerabilitclimatica, source: 'Indicedivulnerabilitclimatica'},{layer: lyr_Personesole, source: 'Personesole'},{layer: lyr_Personestraniere, source: 'Personestraniere'},{layer: lyr_Personeanziane, source: 'Personeanziane'},{layer: lyr_Bambini, source: 'Bambini'},{layer: lyr_Indicedideprivazionematerialeesociale2021, source: 'Indicedideprivazionematerialeesociale2021'},{layer: lyr_Baciniacquatici, source: 'Baciniacquatici'},{layer: lyr_Infrastrutturebluantropiche, source: 'Infrastrutturebluantropiche'},{layer: lyr_Parchi, source: 'Parchi'},{layer: lyr_Alberi, source: 'Alberi'},{layer: lyr_EdificieStruttureOSM, source: 'EdificieStruttureOSM'},{layer: lyr_Presidisocioassistenzialianziani, source: 'Presidisocioassistenzialianziani'},{layer: lyr_CasedellaComunitcensite, source: 'CasedellaComunitcensite'},{layer: lyr_OspedaliCensiti, source: 'OspedaliCensiti'},{layer: lyr_SistemaEmergenzaUrgenza, source: 'SistemaEmergenzaUrgenza'}
+        {layer: lyr_Personesole, source: 'Personesole'},{layer: lyr_Personestraniere, source: 'Personestraniere'},{layer: lyr_Personeanziane, source: 'Personeanziane'},{layer: lyr_Bambini, source: 'Bambini'},{layer: lyr_Indicedideprivazionematerialeesociale2021, source: 'Indicedideprivazionematerialeesociale2021'},{layer: lyr_Baciniacquatici, source: 'Baciniacquatici'},{layer: lyr_Infrastrutturebluantropiche, source: 'Infrastrutturebluantropiche'},{layer: lyr_Parchi, source: 'Parchi'},{layer: lyr_Alberi, source: 'Alberi'},{layer: lyr_EdificieStruttureOSM, source: 'EdificieStruttureOSM'},{layer: lyr_Presidisocioassistenzialianziani, source: 'Presidisocioassistenzialianziani'},{layer: lyr_CasedellaComunitcensite, source: 'CasedellaComunitcensite'},{layer: lyr_OspedaliCensiti, source: 'OspedaliCensiti'},{layer: lyr_SistemaEmergenzaUrgenza, source: 'SistemaEmergenzaUrgenza'}
     ];
     
 // Funzione per ottenere il nome del progetto dall'URL
