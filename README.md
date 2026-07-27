@@ -9,7 +9,7 @@
 </h1>
 <br>
 
-Working title: _**Multidimensional heat vulnerability mapping to support climate shelter siting: methods and development of a regional decision-support tool**_
+Working title: _**Multidimensional Heat Vulnerability Mapping to Support Climate Shelter Siting: Methods and Development of a Regional Decision-support Tool**_
 
 <br><br>
 
