@@ -58,12 +58,12 @@ var style_EdificieStruttureOSM = `<?xml version="1.0" encoding="UTF-8"?>
             <se:Graphic>
               <!--Parametric SVG-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="styles/accommodation_shelter2.svg?fill=%2337ef1b&amp;fill-opacity=1&amp;outline=%23232323&amp;outline-opacity=1&amp;outline-width=0"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="styles/railway_station.svg?fill=%2337ef1b&amp;fill-opacity=1&amp;outline=%23232323&amp;outline-opacity=1&amp;outline-width=0"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Plain SVG fallback, no parameters-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="styles/accommodation_shelter2.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="styles/railway_station.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Well known marker fallback-->
