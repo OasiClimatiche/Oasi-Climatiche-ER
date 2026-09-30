@@ -9,7 +9,7 @@ var lyr_CartoLight = new ol.layer.Tile({
             
             source: new ol.source.XYZ({
             attributions: ' ',
-                url: 'https://basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png?key=cb1_44jy_1_47eaa186281ce72a3064de54',
+                url: 'https://basemaps.cartocdn.com/rastertiles/light_nolabels/{z}/{x}/{y}@2x.png?key=cb1_44jy_1_47eaa186281ce72a3064de54',
 				        tilePixelRatio: 2
             })
         });
