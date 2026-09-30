@@ -897,7 +897,7 @@ var lyr_Toponimi = new ol.layer.Tile({
             'opacity': 1.000000,
             source: new ol.source.XYZ({
             attributions: '<a href="https://cartodb.com/basemaps/">Map tiles by CartoDB (CCBY3.0). Data by OpenStreetMap, under ODbL.</a>',
-                url: 'https://a.basemaps.cartocdn.com/rastertiles/voyager_only_labels/{z}/{x}/{y}@2x.png',
+                url: 'https://basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png?key=cb1_44jy_1_47eaa186281ce72a3064de54',
 				                    tilePixelRatio: 2
             })
         });
