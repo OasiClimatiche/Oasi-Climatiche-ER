@@ -12,7 +12,8 @@
 Working title: _**A multidimensional heat vulnerability mapping approach for climate shelter planning**_
 
 <br><br>
-
+![Logo](resources/Graphical_Abstract.png)
+<br><br>
 This is the output for the Oasi Climatiche project's demo webGIS application:
 
 [Link to the demo page](https://oasiclimatiche.github.io/Oasi-Climatiche-ER)
