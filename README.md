@@ -5,11 +5,11 @@
     <img src="resources/stemma.png" alt="Logo" width="75%"></a>
 </p>
 <h1 align="center">
-<a href="https://oasiclimatiche.github.io/Oasi-Climatiche-ER/">Multidimensional heat vulnerability mapping to support climate shelter siting: methods and development of a regional decision-support tool</a>
+<a href="https://oasiclimatiche.github.io/Oasi-Climatiche-ER/">A multidimensional heat vulnerability mapping approach for climate shelter planning</a>
 </h1>
 <br>
 
-Working title: _**Multidimensional Heat Vulnerability Mapping to Support Climate Shelter Siting: Methods and Development of a Regional Decision-support Tool**_
+Working title: _**A multidimensional heat vulnerability mapping approach for climate shelter planning**_
 
 <br><br>
 
@@ -19,8 +19,7 @@ This is the output for the Oasi Climatiche project's demo webGIS application:
 
 <br><br>
 
-For feedback, additional details or observations please contact us at [our mail addresses](mailto:Paola.Angelini@regione.emilia-romagna.it?cc=simone.agostini6@studio.unibo.it&subject=[Oasi%20Climatiche]%20Request).
-
+For feedback, additional details or observations please contact us at [our mail addresses](mailto:Serena.Broccoli@regione.emilia-romagna.it?cc=simone.agostini6@studio.unibo.it&subject=[Oasi%20Climatiche]%20Request).
 <br><br><br>
 
 ![Logo](resources/loghi_partner.png)
