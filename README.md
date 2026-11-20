@@ -19,7 +19,7 @@ For feedback, additional details or observations please contact the correspondin
 <br>
 <p align="center">
 <a href="https://oasiclimatiche.github.io/Oasi-Climatiche-ER/">
-    <img src="resources/Graphical_Abstract.png" alt="Graphical abstract" width="100%"/>
+    <img src="resources/Graphical_Abstract.jpg" alt="Graphical abstract" width="100%"/>
 </a></p>
 <br><br>
 This is the publicly available demonstration version for Oasi Climatiche project's WebGIS application:
